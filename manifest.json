@@ -1,0 +1,24 @@
+{
+    "name": "Gráfico de Barras Personalizable",
+    "dsccConnector": "https://script.google.com/macros/s/AKfycby7QEPZ96Kq9mHcXMSnA-ogV2SiaqOqS2mdGC7Vu_XYybgLkq_p7YVQVT5jWJJDnT-Jvg/exec",
+    "logoUrl": "https://YOUR_LOGO_URL.png",
+    "supports": ["table"],
+    "description": "Gráfico de barras dinámico y personalizable en Looker Studio",
+    "version": "1.0",
+    "fields": {
+        "dimensions": [
+            {
+                "id": "dimension",
+                "name": "Selecciona la Dimensión",
+                "type": "DIMENSION"
+            }
+        ],
+        "metrics": [
+            {
+                "id": "metric",
+                "name": "Selecciona la Métrica",
+                "type": "METRIC"
+            }
+        ]
+    }
+}
